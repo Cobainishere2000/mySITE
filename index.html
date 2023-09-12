@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@300;600&family=Playfair+Display&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/afb7ef5566.js" crossorigin="anonymous"></script>
+  <title>GETNotes</title>
+</head>
+<body>
+  <div class="navigation">
+    <nav class="navbar navbar-expand-lg">
+      <a href="#" class="navbar-brand" style="font-family: 'Playfair Display', serif;">GETNotes</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
+        <i class="fa-solid fa-angle-down"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#mycards" class="nav-link active">Subjects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#carouselExampleIndicators" class="nav-link active">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a href="#panel" class="nav-link active">Downloads</a>
+          </li>
+          <form class="d-flex">
+            <input class="form-control me-2"  id="searchbox" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-sm btn-outline-primary" id="searchbtn" type="submit">Search</button>
+          </form>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  
+  <div id="intro" class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6" style="background-color:#9BE8D8;" id="intropara">
+        <h1>GETNotes-Notes Made Easy</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis laudantium accusantium obcaecati numquam tempore molestias aliquam blanditiis fugit quia fugiat harum unde </p>
+        <div id="buttton">
+          <button class="btn btn-lg mybuttton"  style="background-color: #78C1F3;" ><i class="fa-brands fa-apple"></i> Download</button>
+          <button class="btn btn-lg mybuttton"  style="background-color: #78C1F3;"><i class="fa-brands fa-google-play"></i>Download</button>
+        </div>
+        
+      </div>
+      <div class="col-lg-6 image11" style="background-color:#9BE8D8;" >
+        <h1 style="text-align:center;">Sign Up and Get 20% discount</h1>
+        <img src="images/notes_images.jpg" alt="image11"  style="border-radius: 50%;">
+      </div>
+    </div>
+  </div>
+  
+  <div class="features">
+    <div class="row">
+      <div class="feature-item col-md-4">
+        <img  class="blink" src="images/verified-user.png" alt="i">
+        <h3 class="feature-heading">1000+ Active Users</h3>
+        <p class="feature-about">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="feature-item col-md-4">
+        <img class="blink" src="images/teacher.png" alt="j">
+        <h3 class="feature-heading">Best Faculty</h3>
+        <p class="feature-about">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="feature-item col-md-4">
+        <img class="blink" src="images/affordable.png" alt="k">
+        <h3 class="feature-heading">Affordable as a Pizza😲</h3>
+        <p class="feature-about">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="car-image" src="images/220504VICTORPROFILE_01_Web-1-702x336.jpg" class="d-block w-100" alt="...">
+        <h2 class="testimonial-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laboriosam fuga deleniti dicta, facilis cupiditate odit neque! Quasi, veritatis totam"</h3>
+        <h4>-Ramesh , Calcutta University</h4>
+      </div>
+      <div class="carousel-item">
+        <img class="car-image" src="images/image-asset.jpeg" class="d-block w-100" alt="...">
+        <h2 class="testimonial-text">"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat architecto minima mollitia, corrupti nemo libero."</h3>
+        <h4>-Suresh , MAKAUT</h4>
+      </div>
+      <div class="carousel-item">
+        <img class="car-image" src="images/download.jpeg" class="d-block w-100" alt="...">
+        <h2 class="testimonial-text">"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi velit labore optio asperiores hic voluptatum temporibus perferendis ad libero quia"</h3>
+        <h4>-Jayesh , Jadavpur University</h4>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div id="mycards">
+    <h1>Notes Crafted with Precision and Details</h1>
+    <h5>Buy once , Study for Lifetime</h5>
+    <br>
+    <div class="row">
+      <div class="col-lg-3 col-md-6 card-col">
+        <img  class="card-img-top"src="images/phy.jpeg" alt="">
+        <div class="card">
+          <div class="card-body">
+            <h3 style="font-family: 'Montserrat',sans-serif;">Mathematics</h3>
+            <button class="btn btn-lg btn-dark" style="background-color: #78C1F3;">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 card-col">
+        <img  class="card-img-top"src="images/ece.jpg" alt="">
+        <div class="card">
+          <div class="card-body">
+            <h3 style="font-family: 'Montserrat',sans-serif;">Electronics</h3>
+            <button class="btn btn-lg btn-dark" style="background-color: #78C1F3;">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 card-col">
+        <img  class="card-img-top"src="images/chem.jpg" alt="">
+        <div class="card">
+          <div class="card-body">
+            <h3 style="font-family: 'Montserrat',sans-serif;">Chemistry</h3>
+            <button class="btn btn-lg btn-dark" style="background-color: #78C1F3;">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 card-col">
+        <img  class="card-img-top"src="images/commerce.jpg" alt="">
+        <div class="card">
+          <div class="card-body">
+            <h3 style="font-family: 'Montserrat',sans-serif;">Business</h3>
+            <button class="btn btn-lg btn-dark" style="background-color: #78C1F3;">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 card-col">
+        <img  class="card-img-top"src="images/stat.jpg" alt="">
+        <div class="card">
+          <div class="card-body">
+            <h3 style="font-family: 'Montserrat',sans-serif;">Statistics</h3>
+            <button class="btn btn-lg btn-dark" style="background-color: #78C1F3;">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 card-col">
+        <img  class="card-img-top"src="images/biology.png" alt="">
+        <div class="card">
+          <div class="card-body">
+            <h3 style="font-family: 'Montserrat',sans-serif;">Zoology</h3>
+            <button class="btn btn-lg btn-dark" style="background-color: #78C1F3;">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 card-col">
+        <img  class="card-img-top"src="images/python.png" alt="">
+        <div class="card">
+          <div class="card-body">
+            <h3 style="font-family: 'Montserrat',sans-serif;">Python</h3>
+            <button class="btn btn-lg btn-dark" style="background-color: #78C1F3;">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 card-col">
+        <img  class="card-img-top"src="images/c-.png" alt="">
+        <div class="card">
+          <div class="card-body">
+            <h3 style="font-family: 'Montserrat',sans-serif;">C++</h3>
+            <button class="btn btn-lg btn-dark" style="background-color: #78C1F3;">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="apanel" id="panel">
+    <h1 style="font-size: 3rem; color: #E2F6CA;">So , what's stopping you from STUDYING !</h1>
+    <div class="buttton3">
+      <button class="btn btn-lg mybuttton"  style="background-color: #E2F6CA;" ><i class="fa-brands fa-apple"></i> Download</button>
+      <button class="btn btn-lg mybuttton"  style="background-color: #E2F6CA;"><i class="fa-brands fa-google-play"></i>Download</button>
+    </div>
+  </div>
+
+  <div class="footer" id="contact">
+    <a  style="color: #E2F6CA;" href=""><i class="smlogo fa-brands fa-square-facebook fa-2xl"></i></a>
+    <a style="color: #E2F6CA;" href=""><i class="smlogo fa-brands fa-instagram fa-2xl"></i></a>
+    <a style="color: #E2F6CA;" href=""><i class="smlogo fa-brands fa-linkedin fa-2xl"></i></a>
+    <a style="color: #E2F6CA;" href=""><i class="smlogo fa-brands fa-twitter fa-2xl"></i></a>
+    
+    
+    <h6 style="color: #E2F6CA;">@Copyright GETNotes 2023</h6>
+  </div>
+  
+  
+  
+</body>
+</html>
